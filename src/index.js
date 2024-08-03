@@ -2,18 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App.js';
-import { configureStore } from '@reduxjs/toolkit';
-import { Provider } from 'react-redux';
-import productsReducer, { productsFetch } from './features/productsSlice.js';
-import { productsApi } from './features/productsApi.js';
-
-
-
-//npimport reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router-dom";
-import cartReducer, { getTotals } from './features/cartSlice.js';
+{/*import { configureStore } from '@reduxjs/toolkit';
+import { Provider } from 'react-redux';*/}
 
-const store = configureStore({
+
+
+//import reportWebVitals from './reportWebVitals';
+
+
+{/*const store = configureStore({
 
   reducer: {
     products: productsReducer,
@@ -24,21 +22,21 @@ const store = configureStore({
   middleware: (getDefaultMiddleware) => {
     return getDefaultMiddleware().concat(productsApi.middleware);
   },
-});
+});*/}
 
-store.dispatch(productsFetch());
-store.dispatch(getTotals());
+{/*store.dispatch(productsFetch());
+store.dispatch(getTotals());*/}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <BrowserRouter  >
-    <Provider store = {store}>
+    {/*<Provider>*/}
     <App />
 
-    </Provider>
+    {/*</Provider>*/}
     
      
      
-  </BrowserRouter>
+  </BrowserRouter>,
 );

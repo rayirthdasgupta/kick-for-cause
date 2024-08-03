@@ -4,7 +4,7 @@ import React, {useState} from 'react'
 import {Link} from "react-router-dom"
 
 import { FaBars, FaTimes } from "react-icons/fa";
-import { useSelector } from "react-redux";
+//import { useSelector } from "react-redux";
 
 
 const Navbar = () => {
@@ -21,7 +21,7 @@ const Navbar = () => {
         }
     };
     window.addEventListener("scroll", changeColor);
-    const {cartTotalQuantity} = useSelector(state => state.cart)
+    //const {cartTotalQuantity} = useSelector(state => state.cart)
   return (
     <div className={color ? "header header-bg" : "header"}>
         <Link to="/">

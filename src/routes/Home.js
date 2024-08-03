@@ -2,15 +2,14 @@ import React from 'react';
 import Navbar from '../components/Navbar.js';
 import HeroImg from '../components/HeroImg.js';
 import Footer from '../components/Footer.js';
-import { useGetAllProductsQuery } from '../features/productsApi.js';
-import { useDispatch } from 'react-redux';
-import {useNavigate} from "react-router";
-import { addToCart } from '../features/cartSlice.js';
+{/*import { useDispatch } from 'react-redux';
+import {useNavigate} from "react-router";*/}
 
 
 
 const Home = () => {
-    /*const {data, error, isLoading} = useGetAllProductsQuery();
+    /*
+    const {data, error, isLoading} = useGetAllProductsQuery();
     const dispatch = useDispatch();
     const navigate = useNavigate();
 
