@@ -1,9 +1,9 @@
 import "./HeroImgStyles.css";
 
 import React from 'react'
-import IntroImg from "../assets/intro-img.png"
+//import IntroImg from "../assets/intro-img.png"
 import SmallImg from "../assets/ERDM Sports (11).png"
-import {Link} from "react-router-dom"
+//import {Link} from "react-router-dom"
 
 const HeroImg = () => {
   return (
