@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar.js';
 //import Footer from '../components/Footer.js';
-import HeroImg2 from '../components/HeroImg2.js';
+//import HeroImg2 from '../components/HeroImg2.js';
 import "../components/MeetTheTeamStyles.css"
 import RayImg from "../assets/IMG_0834.jpg"
 import EricImg from "../assets/ericimg.jpeg"
