@@ -22,6 +22,9 @@
     top: 52.5%;
     left: 50%;
     text-align: center;
+    width: 85%;
+    padding-bottom: 8px;
+    padding-top: 80px;
 }
 .hero .content h1 {
     font-size: 4rem;
@@ -47,9 +50,10 @@
 .content .btn {
     margin: 1rem 0.2rem;
 }
+
 @media screen and (max-width: 670px) {
     .hero .content {
-        top: 130%;
+        top: 120%;
         
     }
 
