@@ -24,7 +24,7 @@ const HeroImg = () => {
             Coming Soon...
           </h2>
           <p>
-            After wrapping up our first session on August 7th, our next session is on August 15th. Send us a text or email to enroll your child. All donations we recieve from this camp will be donated to UNICEF and Red Cross! The cost for enrollment is free for the whole camp, but donations are highly appreciated!
+            The date for our third session of the summer will be posted here soon. Send us a text or email to enroll your child. All donations we recieve from this camp will be donated to UNICEF! The cost for enrollment is free for the whole camp, but donations are highly appreciated!
           </p>
           {/*<h1>For more information look at our About page!</h1>*/}
   
