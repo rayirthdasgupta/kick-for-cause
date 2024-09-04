@@ -24,7 +24,7 @@ const HeroImg = () => {
             Coming Soon...
           </h2>
           <p>
-            The date for our third session of the summer will be posted here soon. Send us a text or email to enroll your child. All donations we recieve from this camp will be donated to UNICEF! The cost for enrollment is free for the whole camp, but donations are highly appreciated!
+            Summer is over! Throughout the school year we will be holding sessions on weekends for $20. Send us a text or email to enroll your child. All donations we recieve from this camp will be donated to UNICEF!
           </p>
           {/*<h1>For more information look at our About page!</h1>*/}
   
