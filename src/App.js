@@ -8,6 +8,7 @@ import {Route, Routes} from "react-router-dom"
 //import { BrowserRouter, Switch, redirect } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import MeetTheTeam from "./routes/MeetTheTeam.js";
+import SignUp from "./routes/SignUp.js";
 
 
 
@@ -21,6 +22,7 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/contact" element={<Contact />} />
       <Route path = "/team" element = {<MeetTheTeam/>} />
+      <Route path = "/signup" element = {<SignUp/>} />
       
       
     </Routes>
