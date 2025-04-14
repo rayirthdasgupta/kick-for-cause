@@ -4,9 +4,9 @@ import Navbar from '../components/Navbar.js';
 //import HeroImg2 from '../components/HeroImg2.js';
 import "../components/MeetTheTeamStyles.css"
 import RayImg from "../assets/IMG_0834.jpg"
-import EricImg from "../assets/ericimg.jpeg"
+import AndrewImg from "../assets/AndrewImg.jpeg"
 import MatthiasImg from "../assets/matthiasimg.jpeg"
-import DaanishImg from "../assets/daanishimg.jpeg"
+import YechanImg from "../assets/YechanImg.jpeg"
 
 const MeetTheTeam = () => {
   return <div>
@@ -25,14 +25,14 @@ const MeetTheTeam = () => {
         </p>
         </div>
         <div className='daanish'>
-        <img src={DaanishImg} alt = "oops"/>
-        <h1>Daanish Syed</h1>
-        <p>My name is Daanish and I love sports! I’ve been playing soccer since I was 8 but started competitively at 12. I am currently playing for Crossfire Premier but I used to play for ISC Gunners. I am a student at Skyline High School and I played for their Varsity Soccer team! I also enjoy swimming, cooking, and hanging out with friends.</p>
+        <img src={YechanImg} alt = "oops"/>
+        <h1>Yechan Park</h1>
+        <p>What's up! I’ve been playing competitive soccer for over nine years, starting with Calgary Blizzard, one of the top youth clubs in Alberta, where I played for more than five years. After moving on from Blizzard, I continued to develop my skills with ISC Gunners Premier 09 A in the Elite Academy (EA) league and Bellevue XL. In addition to soccer, I have experience working with and mentoring children. I’ve taught swim lessons at my local pool and volunteered at a YMCA youth camp, giving me the opportunity to help guide and support young kids in both athletic and social environments. Through this nonprofit, I’m excited to give back to the community and help create opportunities for the next generation of young athletes to develop, grow, and find their passion for the game.</p>
         </div>
         <div className='eric'>
-        <img src={EricImg} alt = "oops"/>
-        <h1>Eric LaRusso</h1>
-        <p>Hi! My name is Eric and I am a student at Skyline High School and I have loved playing sports since the age of four. I have experience playing soccer for a variety of local clubs, including ISC Gunners, Eastside FC, and currently Crossfire B09 ECNL Academy. I also enjoy running track, playing football, and fishing.</p>
+        <img src={AndrewImg} alt = "oops"/>
+        <h1>Andrew Wang</h1>
+        <p>Hey! My name is Andrew and I’m a sophomore at Skyline High School. I’ve been playing soccer for eleven years now, starting with Lil’ Kickers at Arena Sports! Later, I spent nine years playing for ISC Gunners before moving on to high school soccer. I hope to give back to this amazing sport by doing this, a sport that has taught me so much, and a sport that I hope will teach you so much as well. In my free time, I enjoy biking, robotics, and reading.</p>
         </div>
        
 

@@ -14,17 +14,17 @@ const HeroImg = () => {
       <body>
       <h1>What?</h1>
         <p>
-          Here at the Kick for Cause Sports Camp, our 4 high school trainers teach kids attending the camp the fundamentals of sports like soccer and football. We incoorporate fun activities as well to help kids love sports!
+          Here at the Kick for Cause Sports Camp, our team of 8 high school trainers teach kids attending the camp the fundamentals of soccer. We incoorporate fun activities as well to keep the kids engaged and excited to improve! Our non-profit organization is dedicated to spreading the love of the beautiful game and all our proceeds are donated to improve field-conditions across Washington, making the game more accessible! All skill-levels are welcome and our coaches have lots of experience running these camps...
           </p>
           <h1>When?</h1>
-            <p>We hold two-week camps throughout the summer and hold trainings almost every weekend during the school year!</p>
+            <p>Well... whenever you want! We train kids throughout the year, offering both private sessions, and group sessions. This summer, join us for our biggest project yet, where we will be holding 3-day camps every week from Tuesdays to Thursdays!</p>
           <h1>Where?</h1>
-            <p>Locations may vary throughout Sammamish, but often sessions will be held at Klahanie Park.</p>
+            <p>Locations may vary throughout Sammamish, but often sessions will be held at Klahanie Park, Beaver Lake Middle School, or Skyline High School.</p>
           <h2>
             Coming Soon...
           </h2>
           <p>
-            Summer is over! Throughout the school year we will be holding sessions on weekends for $20. Send us a text or email to enroll your child. All donations we recieve from this camp will be donated to UNICEF!
+            Summer is almost here! More details regarding our summer camps will be released shortly. Send us a text or email to enroll your child. 
           </p>
           {/*<h1>For more information look at our About page!</h1>*/}
   

@@ -3,13 +3,13 @@ import React from 'react';
 import { useSpring, animated } from '@react-spring/web';
 
 const DonationCounter = () => {
-  const target = 250; // The total amount raised
+  const target = 3000; // The total amount raised
 
   const { number } = useSpring({
     from: { number: 0 },
     number: target,
     delay: 200,
-    config: { duration: 3000 }
+    config: { duration: 1000 }
   });
 
   return (
