@@ -14,7 +14,7 @@ const DonationCounter = () => {
 
   return (
     <div className="donation-counter">
-      <h4>Total Raised For UNICEF:</h4>
+      <h4>Total Money Raised:</h4>
       <animated.div className="counter">
         {number.to(n => `$${n.toFixed(0).toLocaleString()}`)}
       </animated.div>

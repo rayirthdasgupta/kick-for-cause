@@ -57,6 +57,7 @@
 @media screen and (max-width: 670px) {
     .hero .content {
         top: 130%;
+        padding-top: 450px;
         
     }
 
