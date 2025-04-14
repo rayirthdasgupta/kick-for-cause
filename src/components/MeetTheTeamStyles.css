@@ -35,11 +35,15 @@
     padding: 50px 20px 40px 20px;
     border: 2px solid white;
 }
-.team-item .daanish {
+.team-item .yechan {
     padding: 50px 20px 40px 20px;
     border: 2px solid white;
 }
-.team-item .eric {
+.team-item .andrew {
+    padding: 50px 20px 40px 20px;
+    border: 2px solid white;
+}
+.team-item .ankit {
     padding: 50px 20px 40px 20px;
     border: 2px solid white;
 }
@@ -86,11 +90,15 @@
         padding: 50px 20px 40px 20px;
         border: 2px solid white;
     }
-    .team-item .daanish {
+    .team-item .yechan {
         padding: 50px 20px 40px 20px;
         border: 2px solid white;
     }
-    .team-item .eric {
+    .team-item .andrew {
+        padding: 50px 20px 40px 20px;
+        border: 2px solid white;
+    }
+    .team-item .ankit {
         padding: 50px 20px 40px 20px;
         border: 2px solid white;
     }

@@ -17,7 +17,7 @@ const Footer = () => {
                 </div>
                 <div className="phone">
                     <h4><FaPhone size = {20} style={{color: "#fff", marginRight: "2rem"}}/>
-                425-240-8724</h4>
+                425-738-2825</h4>
                 
                 </div>
                 <div className="email">
@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
             <div className="right">
                 <h4>About the camp</h4>
-                <p>This is Ray, Eric, Daanish, and Matthias. Founders of this sports camp. We love spreading the joy of sports and teaching kids to enjoy the outdoors.</p>
+                <p>We love spreading the joy of soccer and teaching kids to enjoy training!</p>
                 {/*<div className="social">
                 <FaInstagram size = {30} style={{color: "#fff", marginRight: "1rem"}}/>
   </div>*/}

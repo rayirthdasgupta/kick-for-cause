@@ -1,8 +1,8 @@
 .into-img {
     width: 100vw;
-    height: 170vh;
+    height: 140vh;
     overflow: hidden;
-    padding-top: 900px;
+    margin-top: 680px;
 }
 .full-screen {
     width: 100%;
@@ -70,11 +70,13 @@
 
     }
     .hero .into-img {
-        width: 99vw;
+        position: center;
+        width: 92vw;
         max-width: 100%;
-        height: 300vh;
-        padding-top: 1450px;
-        
+        height: 200vh;
+        padding-top: 780px;
+        /*margin-right: 25px;*/
+        margin-left: 15px;
 
     }
 
