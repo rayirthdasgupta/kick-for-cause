@@ -1,14 +1,14 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../components/SignUp.css';
 import Navbar from '../components/Navbar.js';
 
 const SignUp = () => {
-  const [formData, setFormData] = useState({
+  /*const [formData, setFormData] = useState({
     name: '',
     email: '',
     age: '',
     message: '',
-  });
+  });*/
 
 
   const handleSubmit = (e) => {
