@@ -9,7 +9,7 @@ import {Route, Routes} from "react-router-dom"
 import { ToastContainer } from "react-toastify";
 import MeetTheTeam from "./routes/MeetTheTeam.js";
 import SignUp from "./routes/SignUp.js";
-
+import Gallery from "./routes/Gallery.js";
 
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
       <Route path="/contact" element={<Contact />} />
       <Route path = "/team" element = {<MeetTheTeam/>} />
       <Route path = "/signup" element = {<SignUp/>} />
+      <Route path = "/gallery" element = {<Gallery/>} />
       
       
     </Routes>

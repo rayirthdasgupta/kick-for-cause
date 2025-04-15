@@ -8,6 +8,7 @@ import AndrewImg from "../assets/AndrewImg.jpeg"
 import MatthiasImg from "../assets/matthiasimg.jpeg"
 import YechanImg from "../assets/YechanImg.jpeg"
 import AnkitImg from "../assets/AnkitImg.jpeg"
+import AdamImg from "../assets/AdamImg.jpeg"
 
 const MeetTheTeam = () => {
   return <div>
@@ -39,6 +40,11 @@ const MeetTheTeam = () => {
         <img src={AnkitImg} alt = "oops"/>
         <h1>Ankit Kolagotla</h1>
         <p>Hi, I’m Ankit—a sophomore in high school at Skyline. I’ve been playing competitive soccer for almost 10 years and currently compete in the ECNL league on Snohomish United. Soccer has always been a huge part of my life, and I’ve gained a lot of experience working with kids through tutoring, coaching at camps, and volunteering. I love to share my passion and help make the sport more accessible, inclusive, and impactful for others.</p>
+        </div>
+        <div className='adam'>
+        <img src={AdamImg} alt = "oops"/>
+        <h1>Adam Shahpurwala</h1>
+        <p>Hi! My name is Adam, and I’m a sophomore at Skyline High School. I’ve been playing soccer for 11 years and have been a goalkeeper for 9 years. I started out at ISC Gunners, then moved to Eastside where I currently play for the 09 ECRL team. I’ve also been a part of the Skyline varsity team for both of my high school years so far. I have a lot of experience working with kids, especially through helping train goalkeepers at Eastside. Outside of soccer, I love being outdoors and spending time with my friends. I’m excited for our upcoming camps and can’t wait to help young players grow their passion for the game!</p>
         </div>
        
 
