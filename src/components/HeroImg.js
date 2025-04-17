@@ -1,5 +1,6 @@
 import "./HeroImgStyles.css";
-
+import CampForm from "./CampForm.js";
+import '../components/SignUp.css'
 import React from 'react'
 //import IntroImg from "../assets/intro-img.png"
 import SmallImg from "../assets/3.png"
@@ -30,12 +31,17 @@ const HeroImg = () => {
   
 
         </body>
-
+        <div className="home-form-wrapper">
+      <h1 className='signup-title'>Camp Interest Form</h1>
+      <CampForm/>
+    </div> 
       </div>
+      
       <div className="into-img">
         <img className="full-screen" src={SmallImg} alt="IntroImg"/>
       </div>
-        
+
+      
         
         {/*<div>
             <Link to="/contact" className="btn">Contact</Link>

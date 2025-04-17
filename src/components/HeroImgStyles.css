@@ -2,7 +2,7 @@
     width: 100vw;
     height: 140vh;
     overflow: hidden;
-    margin-top: 680px;
+    margin-top: 1900px;
 }
 .full-screen {
     width: 100%;
@@ -26,7 +26,7 @@
     text-align: center;
     width: 85%;
     padding-bottom: 8px;
-    padding-top: 200px;
+    padding-top: 1250px;
     top: 60%;
 }
 .hero .content h1 {
@@ -57,7 +57,7 @@
 @media screen and (max-width: 670px) {
     .hero .content {
         top: 130%;
-        padding-top: 485px;
+        padding-top: 1400px;
         
     }
 
@@ -74,7 +74,7 @@
         width: 92vw;
         max-width: 100%;
         height: 200vh;
-        padding-top: 1100px;
+        padding-top: 900px;
         /*margin-right: 25px;*/
         margin-left: 15px;
 
