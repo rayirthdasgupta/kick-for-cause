@@ -6,7 +6,7 @@ import HeroImg2 from '../components/HeroImg2.js';
 const Contact = () => {
   return <div>
     <Navbar/>
-    <HeroImg2 heading = "CONTACT." text="For information about enrollment or any questions you have, contact us at 425-738-2825 or kickforcausesportscamp@gmail.com"/>
+    <HeroImg2 heading = "CONTACT." text="For information about enrollment or any questions you have, contact us at 425-494-8525"/>
     {/*<Footer/>*/}
   </div>
 };
