@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar.js';
 import "../components/MeetTheTeamStyles.css"
 import RayImg from "../assets/IMG_0834.jpg"
 import AndrewImg from "../assets/AndrewImg.jpeg"
-import MatthiasImg from "../assets/matthiasimg.jpeg"
+//import MatthiasImg from "../assets/matthiasimg.jpeg"
 import YechanImg from "../assets/YechanImg.jpeg"
 import AnkitImg from "../assets/AnkitImg.jpeg"
 import AdamImg from "../assets/AdamImg.jpeg"
