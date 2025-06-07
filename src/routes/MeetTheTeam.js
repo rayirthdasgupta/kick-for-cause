@@ -23,7 +23,7 @@ const MeetTheTeam = () => {
         </div>
         <div className='matthias'>
         <img src={MatthiasImg} alt = "oops"/>
-        <h1>Matthias Rojas</h1>
+        <h1>Matthias Rojas - Co-Founder and Coach</h1>
         <p>I’m Matthias Rojas a student currently attending skyline high school.  I enjoy playing sports like basketball, pickleball, and especially soccer. I play soccer for Western Washington Surf 08 EA. All of the sports have taught me valuable lessons about teamwork, communication, and perseverance, which I would like to pass on to the younger generation. These skills can not only help players during sports but ultimately throughout the journey of life.
         </p>
         </div>
