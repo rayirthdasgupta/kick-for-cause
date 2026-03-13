@@ -10,6 +10,7 @@ import YechanImg from "../assets/YechanImg.jpeg"
 import AnkitImg from "../assets/AnkitImg.jpeg"
 import AdamImg from "../assets/AdamImg.jpeg"
 import SaaqibImg from "../assets/SaaqibImg.jpeg"
+import DaanishImg from "../assets/daanishimg.jpeg"
 
 const MeetTheTeam = () => {
   return <div>
@@ -51,6 +52,11 @@ const MeetTheTeam = () => {
         <img src={SaaqibImg} alt = "oops"/>
         <h1>Saaqib Parvez - Coach</h1>
         <p>My name is Saaqib and I’m currently a sophomore at Skyline High School. I’ve been playing soccer for several years now, starting with Gunners and now playing for Surf. Soccer has been a huge part of my life and has taught me important lessons about teamwork, leadership, and dedication, all qualities I'm excited to pass on to younger kinds through Kicks for Cause. Outside of soccer, I enjoy working with people and being active in my community. I’ve gained professional experience working at Cold Stone Creamery, where I’ve developed strong communication skills, responsibility, and a good work ethic. As part of Kick for Cause, I’m focused on being a positive role model, staying committed, and helping create a fun and supportive environment for the kids we work with. I’m proud to be part of a team that’s using the game of soccer to make a difference.</p>
+        </div>
+        <div className='saaqib'>
+        <img src={DaanishImg} alt = "oops"/>
+        <h1>Daanish Syed - Coach</h1>
+        <p>Hi, my name is Daanish Syed, and I'm a junior at Skyline High School. I've been playing soccer for as long as I can remember with my first club experience being with ISC Gunners. I currently play at Eastside FC for the 07/08 ECRL team and I also play Varsity soccer for my highschool. Soccer has been a huge part of my life, teaching me valuable skills and also introducing me to my best friends. I want to share this sport by coaching this sport and encouraging a healthy lifestyle. I have tons of prior experience working with kids as I am also a youth swim instructor for the YMCA! Outside of soccer, I love cooking, playing other sports and spending time with friends and family!</p>
         </div>
        
 
