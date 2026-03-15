@@ -1,9 +1,10 @@
 .into-img {
     width: 100vw;
-    height: 140vh;
+    height: auto;
     overflow: hidden;
-    margin-top: 1900px;
+    margin-top: 2rem;
 }
+
 .full-screen {
     width: 100%;
     height: 100%;
@@ -13,72 +14,131 @@
     padding: auto;
 }
 
-
-.hero{
+.hero {
     height: 100%;
     width: 100%;
+    background-color: #000000; /* Black background for the hero section */
+    color: #ffffff; /* White text for contrast */
 }
+
 .hero .content {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 52.5%;
-    left: 50%;
+    position: relative;
     text-align: center;
-    width: 85%;
-    padding-bottom: 8px;
-    padding-top: 1250px;
-    top: 60%;
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem 0;
 }
+
 .hero .content h1 {
     font-size: 4rem;
     padding: 0.6rem 0 1.5rem;
-    color: white;
+    color: #ffffff; /* White for better contrast */
     background-color: transparent;
-    
 }
+
 .hero .content h2 {
-    font-size: 4rem;
+    font-size: 2.5rem;
     padding: 0.6rem 0 1.5rem;
-    color: white;
+    color: #ffffff; /* White for better contrast */
     background-color: transparent;
-  
 }
-.hero .content p{
-    font-size: 1.5rem;
+
+.hero .content p {
+    font-size: 1.2rem;
     font-weight: 400;
-    color: white;
-    background-color: transparent;
-    
+    color: #d1d5db; /* Light gray for text */
+    line-height: 1.8;
+    margin-top: 1rem;
 }
+
 .content .btn {
     margin: 1rem 0.2rem;
+    padding: 0.8rem 1.5rem;
+    background-color: #2563eb; /* Blue button */
+    color: white;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.content .btn:hover {
+    background-color: #1d4ed8; /* Darker blue on hover */
+    transform: scale(1.05);
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    background: linear-gradient(180deg, rgba(17,24,39,0.03), rgba(255,255,255,0));
+    border-radius: 1rem;
+    border: 6px solid #4b5563; /* Medium gray border */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35); /* Stronger shadow for 3D effect */
+    padding: 1.5rem;
+    margin: 1rem 0; /* Add spacing between cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-12px) rotate(-0.5deg);
+    box-shadow: 0 24px 50px rgba(0, 0, 0, 0.55); /* More prominent shadow on hover */
+    border-color: #10b981; /* Change border color on hover */
+}
+
+.card-icon {
+    font-size: 3rem; /* Large icon size */
+    color: white;
+    background-color: #3b83f671; /* Default blue background for icons */
+    border-radius: 50%;
+    padding: 1rem; /* Padding for the icon */
+    width: 96px;
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    box-shadow: 0 8px 18px rgba(0, 0, 0, 0.45); /* Shadow for the icon */
+}
+
+.card-title {
+    font-size: 2.5rem; /* Larger title font size */
+    font-weight: bold;
+    color: #ffffff; /* White for better contrast */
+    margin-bottom: 0.5rem;
+}
+
+.card-description {
+    font-size: 1.2rem; /* Slightly larger description font size */
+    color: #d1d5db; /* Light gray for text */
+    line-height: 1.8;
 }
 
 @media screen and (max-width: 670px) {
     .hero .content {
-        top: 130%;
-        padding-top: 1400px;
-        
+        padding-top: 2rem;
     }
 
     .hero .content h1 {
-        font-size: 3rem;
-        background-color: transparent;
+        font-size: 2.5rem;
     }
+
     .hero .content p {
-        font-size: 1.5rem;
-
+        font-size: 1rem;
     }
+
     .hero .into-img {
-        position: center;
-        width: 92vw;
-        max-width: 100%;
-        height: 200vh;
-        padding-top: 900px;
-        /*margin-right: 25px;*/
-        margin-left: 15px;
-
+        width: 100%;
+        height: auto;
+        margin-top: 2rem;
     }
 
+    .card {
+        flex-direction: column;
+        text-align: center;
+    }
 
+    .card-icon {
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
 }
