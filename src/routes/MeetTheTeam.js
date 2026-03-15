@@ -30,7 +30,7 @@ const MeetTheTeam = () => {
         </div>
         <div className='yechan'>
         <img src={YechanImg} alt = "oops"/>
-        <h1>Yechan Park - Co-founder and Coach</h1>
+        <h1>Yechan Park - Co-founder and Co-Director</h1>
         <p>What's up! I’ve been playing competitive soccer for over nine years, starting with Calgary Blizzard, one of the top youth clubs in Alberta, where I played for more than five years. After moving on from Blizzard, I continued to develop my skills with ISC Gunners Premier 09 A in the Elite Academy (EA) league and Bellevue XL. In addition to soccer, I have experience working with and mentoring children. I’ve taught swim lessons at my local pool and volunteered at a YMCA youth camp, giving me the opportunity to help guide and support young kids in both athletic and social environments. Through this nonprofit, I’m excited to give back to the community and help create opportunities for the next generation of young athletes to develop, grow, and find their passion for the game.</p>
         </div>
         <div className='andrew'>
