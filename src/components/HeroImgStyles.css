@@ -124,48 +124,6 @@
         padding-top: 1rem;
     }
 
-
-/* Home page: light, brand-themed background and card colors */
-.hero-home {
-    background-color: #f3f7fb !important; /* very light blue-gray */
-    color: #0f172a; /* dark text for readability */
-    min-height: calc(100vh - 100px); /* cover viewport below fixed header */
-    background-image: linear-gradient(180deg, #f7fbff 0%, #f3f7fb 100%);
-}
-
-.hero-home .content h1,
-.hero-home .content h2,
-.hero-home .content p {
-    color: #0f172a;
-}
-
-.hero-home .card {
-    background: #ffffff;
-    border: 1px solid #e6eef9;
-    box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
-}
-
-.hero-home .card-title {
-    color: #061425;
-}
-
-.hero-home .card-description {
-    color: #334155;
-}
-
-.hero-home .card-icon {
-    font-size: 2.5rem;
-    color: #2563eb; /* brand blue */
-    background-color: #dbeafe; /* pale blue */
-    box-shadow: 0 6px 16px rgba(37, 99, 235, 0.08);
-}
-
-@media screen and (max-width: 670px) {
-    .hero-home .content {
-        padding-left: 1rem;
-        padding-right: 1rem;
-    }
-}
     .hero .content h1 {
         font-size: 2.5rem;
     }

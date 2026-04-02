@@ -17,7 +17,7 @@ const Card = ({ icon, title, description }) => {
 
 const HeroImg = () => {
   return (
-    <div className="hero hero-home py-16">
+    <div className="hero bg-gray-100 py-16">
       <div className="content max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <Card
