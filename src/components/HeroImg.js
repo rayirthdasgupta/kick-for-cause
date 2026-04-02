@@ -17,18 +17,18 @@ const Card = ({ icon, title, description }) => {
 
 const HeroImg = () => {
   return (
-    <div className="hero bg-gray-100 py-16">
+    <div className="hero hero-home py-16">
       <div className="content max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <Card
             icon="⚽"
             title="What?"
-            description="Here at the Kick for Cause Sports Camp, our team of 8 high school trainers teach kids attending the camp the fundamentals of soccer. We incorporate fun activities as well to keep the kids engaged and excited to improve! Our non-profit organization is dedicated to spreading the love of the beautiful game and all our proceeds are donated to improve field-conditions across Washington, making the game more accessible! All skill-levels are welcome and our coaches have lots of experience running these camps..."
+            description="Kick for Cause offers fun, skill-building soccer programs for kids of all ages and abilities. Our team of experienced high-school trainers runs weekly private sessions ($35 per session) and seasonal group camps that focus on fundamentals, confidence, and game sense. All skill levels are welcome and kids tend to love our sessions because we keep activities engaging, positive, and development-focused. As a nonprofit, proceeds help improve local fields across Washington."
           />
           <Card
             icon="📅"
             title="When?"
-            description="Well... whenever you want! We train kids throughout the year, offering both private sessions, and group sessions. This summer, join us for our biggest project yet, where we will be holding 3-day camps every week from Tuesdays to Thursdays!"
+            description="We run year-round weekly private sessions (book anytime) at $35 per session, plus seasonal group camps. This summer we'll also offer 3-day camps every week from Tuesdays to Thursdays — families can choose what works best for them."
           />
           <Card
             icon="📍"
@@ -38,11 +38,12 @@ const HeroImg = () => {
         </div>
         <div className="mt-16">
           <h2 className="text-3xl font-bold text-center text-gray-800">
-            Coming Soon...
+            Ongoing Programs & Summer Camps
           </h2>
           <p className="text-center text-gray-600 mt-4">
-            Summer is almost here! More details regarding our summer camps will
-            be released shortly. Send us a text or email to enroll your child.
+            We offer weekly private sessions year-round ($35/session) and seasonal
+            group camps. Summer 2026 camp dates and details will be posted soon —
+            text or email us to enroll or book a private session today.
           </p>
         </div>
         <div className="home-form-wrapper mt-16">
