@@ -33,7 +33,7 @@ const About = () => {
               icon="🎁"
               title="Our Mission"
               description={
-                "All proceeds go toward donating soccer equipment to under-resourced schools. So far, we’ve donated more than $1,500 worth of equipment to schools in the Tacoma area."
+                "All proceeds go toward donating soccer equipment to under-resourced schools. So far, we’ve donated more than $10,000 worth of equipment to schools in the Tacoma area."
               }
             />
             <Card
