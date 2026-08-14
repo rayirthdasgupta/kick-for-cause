@@ -20,6 +20,10 @@ const HeroImg = () => {
     <div className="hero bg-gray-100 py-16">
       <div className="content max-w-6xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <h1>Kick for Cause</h1>
+          <p>
+          Youth soccer training and camps in Sammamish, Washington that give back to the community.
+          </p>
           <Card
             icon="⚽"
             title="What?"
