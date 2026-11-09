@@ -24,7 +24,7 @@ const MeetTheTeam = () => {
         </div>
     <div className='rayirth'>
         <img src={RayImg} alt = "oops"/>
-        <h1>Rayirth Dasgupta - Co-Founder and Co-Director</h1>
+        <h1>Rayirth Dasgupta - Co-Founder of Organization Merged with Kick for Cause and Co-Director</h1>
         <p>Hello! My name is Rayirth or Ray, and I am a junior at Skyline High School! I've been playing soccer for 10 years now, starting in the recreational level, and then moving to ISC Gunners, then Eastside, and then to my current club, Crossfire! Currently I play for Crossfire Premier 09 Academy ECNL. In my free time, other than playing soccer, I love being in the outdoors, going to the gym, and spending time with friends and family. I love all sports which is why I enjoy teaching younger kids to love sports too! I am looking forward to our upcoming camps! I will put a focus on teaching kids to have a good work-ethic and teaching them to learn how to motivate themselves.</p>
         </div>
         <div className='ankit'>
@@ -49,7 +49,7 @@ const MeetTheTeam = () => {
         </div>
         <div className='matthias'>
         <img src={MatthiasImg} alt = "oops"/>
-        <h1>Matthias Rojas - Coach</h1>
+        <h1>Matthias Rojas - Assistant Coach (and co-founder of organization merged with Kick for Cause)</h1>
         <p>I’m Matthias Rojas a student currently attending skyline high school.  I enjoy playing sports like basketball, pickleball, and especially soccer. I play soccer for Western Washington Surf 08 EA. All of the sports have taught me valuable lessons about teamwork, communication, and perseverance, which I would like to pass on to the younger generation. These skills can not only help players during sports but ultimately throughout the journey of life.
         </p>
         </div>
